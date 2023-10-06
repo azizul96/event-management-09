@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/vP5G9gS/Health.png",
+        "title": "Conferences and Seminars",
+        "description":"These events are often educational or informational, bringing together experts and professionals to share knowledge and insights in a particular industry or field.",
+        
+        "price": 290.00
+
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/RDmnhqH/Education.png",
+        "title": "Trade Shows and Exhibitions",
+        "description":"These events provide a platform for businesses to showcase their products and services to a targeted audience, often with networking opportunities.",
+        
+        "price": 290.00
+        
+        
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/YZgk0w2/Clothing.png",
+        "title": "Corporate Meetings",
+        "description":"These can be small-scale gatherings for business discussions, decision-making, or strategic planning. Board retreats often involve top-level management.",
+        
+        "price": 290.00
+        
+        
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/qr8RVR6/Food.png",
+        "title": "Product Launches",
+        "description":"Businesses use product launch events to introduce new products or services to the market and generate buzz and interest.",
+        
+        "price": 290.00
+        
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/qr8RVR6/Food.png",
+        "title": "Team Building",
+        "description":"These events focus on improving teamwork, communication, and employee skills. They can include activities like workshops, outdoor challenges, and seminars.",
+        
+        "price": 290.00
+        
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/YZgk0w2/Clothing.png",
+        "title": "Awards Ceremonies",
+        "description":"Companies may host award ceremonies to recognize and celebrate the achievements of employees, partners, or clients.",
+        
+        "price": 290.00
+        
+    }
+    
+]
