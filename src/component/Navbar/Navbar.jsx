@@ -10,7 +10,8 @@ const Navbar = () => {
 
     const navLinks = <>
         <li><NavLink to={"/"}>Home</NavLink></li>
-        <li><NavLink to={"/about"}>About Us</NavLink></li>
+        <li><NavLink to={"/blog"}>Blog</NavLink></li>
+        <li><NavLink to={"/gallery"}>Gallery</NavLink></li>
         <li><NavLink to={"/contact"}>Contact</NavLink></li>
         
     </>
@@ -21,7 +22,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="container mx-auto px-5">
+        <div className="container mx-auto px-5 py-2">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -32,7 +33,9 @@ const Navbar = () => {
                             {navLinks}
                         </ul>
                     </div>
-                    <Link to='/' className="btn btn-ghost font-bold normal-case text-3xl ">Events by Alif</Link>
+                    <Link to='/' className="">
+                        <img className="w-10" src="/logo.png" alt="" />
+                    </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

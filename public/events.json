@@ -1,58 +1,64 @@
 [
     {
         "id": 1,
-        "image": "https://i.ibb.co/vP5G9gS/Health.png",
+        "image": "https://i.ibb.co/Sr4bt3f/CS.jpg",
         "title": "Conferences and Seminars",
-        "description":"These events are often educational or informational, bringing together experts and professionals to share knowledge and insights in a particular industry or field.",
+        "description":"Every conference and seminar is unique, and we tailor our services to match your specific needs.",
         
-        "price": 290.00
+        "price": 500.00,
+        "detail_description":"Every conference and seminar is unique, and we tailor our services to match your specific needs. Our event specialists will work closely with you to understand your objectives and create a custom event plan. We have an extensive network of venues to choose from, ensuring the perfect setting for your event. Whether you prefer a luxurious hotel, a state-of-the-art conference center, or a unique offsite location, we'll find the ideal match. From registration and ticketing to audiovisual equipment setup, we handle all logistics with precision. Our team ensures seamless coordination to guarantee that your event runs smoothly. Our team will be on-site to manage the event, ensuring that everything runs according to plan. From managing registration desks to handling unexpected issues, we're there to keep your event stress-free."
 
     },
     {
         "id": 2,
-        "image": "https://i.ibb.co/RDmnhqH/Education.png",
+        "image": "https://i.ibb.co/P6fzPHP/Tradeshow.jpg",
         "title": "Trade Shows and Exhibitions",
-        "description":"These events provide a platform for businesses to showcase their products and services to a targeted audience, often with networking opportunities.",
+        "description":"Our creative team will work closely with you to develop a unique and compelling concept for your trade show or exhibition.",
         
-        "price": 290.00
+        "price": 200.00,
+        "detail_description":"Our creative team will work closely with you to develop a unique and compelling concept for your trade show or exhibition. We understand that each event should tell a story and make a statement. Choosing the right venue is crucial for a successful trade show or exhibition. We have a vast network of top-tier venues and will assist you in finding the perfect location to match your objectives and target audience. We streamline the exhibitor registration and onboarding process. Our team ensures a seamless experience for exhibitors, from booth allocation to logistics support. We offer professional booth design and setup services to create visually striking and functional exhibition spaces. Our goal is to make your booth stand out and attract attendees. Our team takes care of all logistical aspects, including transportation, setup, and teardown. We manage operations so you can focus on engaging with your audience."
         
         
     },
     {
         "id": 3,
-        "image": "https://i.ibb.co/YZgk0w2/Clothing.png",
+        "image": "https://i.ibb.co/MM3r0n6/meeting.jpg",
         "title": "Corporate Meetings",
-        "description":"These can be small-scale gatherings for business discussions, decision-making, or strategic planning. Board retreats often involve top-level management.",
+        "description":"Every corporate meeting is unique, and our team of experts will collaborate with you to design a tailor-made solution.",
         
-        "price": 290.00
+        "price": 300.00,
+        "detail_description":"Every corporate meeting is unique, and our team of experts will collaborate with you to design a tailor-made solution. We work closely with your team to understand your goals and objectives. We offer an extensive network of venues suitable for corporate meetings. We'll help you choose the right location, whether it's an intimate boardroom, a state-of-the-art conference center, or a unique offsite venue. From scheduling and agenda management to technical setup and catering, we handle all logistical aspects with precision. We ensure that every detail is managed flawlessly.We offer the latest in audiovisual and presentation technology, ensuring that your meetings are equipped with the tools necessary for effective communication. This includes video conferencing, live streaming, and interactive presentation systems. "
         
         
     },
     {
         "id": 4,
-        "image": "https://i.ibb.co/qr8RVR6/Food.png",
+        "image": "https://i.ibb.co/28k38sD/PL.png",
         "title": "Product Launches",
-        "description":"Businesses use product launch events to introduce new products or services to the market and generate buzz and interest.",
+        "description":"We work closely with your team to develop a strategic plan for your product launch.",
         
-        "price": 290.00
+        "price": 300.00,
+        "detail_description":"We work closely with your team to develop a strategic plan for your product launch. This includes defining objectives, identifying the target audience, and crafting a compelling narrative. Choosing the right venue is critical for a product launch. Whether it's an intimate setting for a select group or a grand stage for a large-scale launch, we have an array of venues to match your vision. We believe in creating a visually stunning and immersive experience. Our creative team will design a unique concept that brings your product to life, from the decor and lighting to interactive displays. We offer cutting-edge technology solutions, including audiovisual setups, interactive displays, live streaming, and virtual reality, to ensure that your product launch is as engaging as it is informative."
         
     },
     {
         "id": 5,
-        "image": "https://i.ibb.co/qr8RVR6/Food.png",
+        "image": "https://i.ibb.co/Tr0mGJp/Team-Building.jpg",
         "title": "Team Building",
-        "description":"These events focus on improving teamwork, communication, and employee skills. They can include activities like workshops, outdoor challenges, and seminars.",
+        "description":"Every organization is unique, and we customize team building experiences to align with your company's culture and objectives.",
         
-        "price": 290.00
+        "price": 200.00,
+        "detail_description":"Every organization is unique, and we customize team building experiences to align with your company's culture and objectives. Whether it's enhancing communication, improving trust, or boosting morale, we design activities that cater to your goals. We offer an array of venue options, from outdoor retreats to indoor conference spaces, ensuring the perfect setting for your team building event. Our repertoire of activities spans from problem-solving challenges and creative workshops to outdoor adventures and indoor games. We can tailor the activities to focus on leadership development, communication skills, or other specific outcomes. Our experienced facilitators are experts in team dynamics and group psychology. They guide your team through activities, providing insights and debriefing to reinforce the lessons learned."
         
     },
     {
         "id": 6,
-        "image": "https://i.ibb.co/YZgk0w2/Clothing.png",
+        "image": "https://i.ibb.co/9Wj90VV/AC.jpg",
         "title": "Awards Ceremonies",
-        "description":"Companies may host award ceremonies to recognize and celebrate the achievements of employees, partners, or clients.",
+        "description":"Our team will work closely with you to understand the purpose and objectives of your awards ceremony.",
         
-        "price": 290.00
+        "price": 500.00,
+        "detail_description":"Our team will work closely with you to understand the purpose and objectives of your awards ceremony. We'll assist in defining award categories, nomination processes, and evaluation criteria.  We offer a range of venue options to match the tone and scale of your awards ceremony, from elegant banquet halls to grand ballrooms or unique event spaces. Our creative team can develop a thematic concept for the ceremony, incorporating visual elements, decor, and lighting to create a unique and glamorous atmosphere. We handle the design and production of awards, certificates, or trophies, ensuring that they reflect the prestige of the event. We can help you select a charismatic host or emcee who will engage the audience and maintain a polished flow throughout the ceremony."
         
     }
     

@@ -11,15 +11,33 @@ import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
 import Registration from './pages/Registration/Registration';
 import AuthProvider from './context/AuthProvider';
+import ServiceDetails from './pages/ServiceDetails/ServiceDetails';
+import Error from './pages/Error/Error';
+import Blog from './pages/Blog/Blog';
+import Gallery from './pages/Gallery/Gallery';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout></Layout>,
+    errorElement: <Error></Error>,
     children: [
       {
         path:"/",
         element:<Home></Home>,
+        loader: ()=> fetch('/events.json')
+      },
+      {
+        path:"/blog",
+        element: <Blog></Blog>
+      },
+      {
+        path:"/gallery",
+        element: <Gallery></Gallery>
+      },
+      {
+        path:"/service/:id",
+        element: <ServiceDetails></ServiceDetails>,
         loader: ()=> fetch('/events.json')
       },
       {
