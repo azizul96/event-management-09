@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { Link, NavLink,  } from "react-router-dom";
-import avatar from '../../assets/user.png'
 import { AuthContext } from "../../context/AuthProvider";
 
 
@@ -22,7 +21,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className="container mx-auto px-5 py-2">
+        <div className="container mx-auto px-3 py-2">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -50,9 +49,11 @@ const Navbar = () => {
                          <div className="dropdown dropdown-end">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                 <div className=" w-10 rounded-full">
-                                    <img src={user? user.photoURL: {avatar}} alt="" />
+                                    <img src={user?.photoURL ? user.photoURL: "/user.png"} alt="" />
                                 </div>
+                                
                             </label>
+                            
                             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                                 <li>
                                     <button className="btn btn-sm  btn-ghost">{user.displayName}</button>
@@ -60,13 +61,13 @@ const Navbar = () => {
                                 </li>
                                 <li>
                                     <button onClick={handleLogOut} className="btn btn-sm  btn-ghost">Logout</button>
-
                                 </li>
                             </ul>
+                            
                         </div>
                         :
                         <Link to='/login'>
-                            <button className="btn btn-sm  btn-ghost">Login</button>
+                            <button className="btn btn-sm  btn-ghost font-bold">Login</button>
                         </Link>
                     }
                 </div>    

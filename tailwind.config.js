@@ -9,5 +9,3 @@ export default {
   },
   plugins: [require("daisyui")],
 }
-
-// Your Event, Our Passion

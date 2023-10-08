@@ -15,6 +15,7 @@ import ServiceDetails from './pages/ServiceDetails/ServiceDetails';
 import Error from './pages/Error/Error';
 import Blog from './pages/Blog/Blog';
 import Gallery from './pages/Gallery/Gallery';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 const router = createBrowserRouter([
   {
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path:"/blog",
-        element: <Blog></Blog>
+        element: <PrivateRoute><Blog></Blog></PrivateRoute>
       },
       {
         path:"/gallery",
@@ -37,7 +38,7 @@ const router = createBrowserRouter([
       },
       {
         path:"/service/:id",
-        element: <ServiceDetails></ServiceDetails>,
+        element: <PrivateRoute><ServiceDetails></ServiceDetails></PrivateRoute>,
         loader: ()=> fetch('/events.json')
       },
       {

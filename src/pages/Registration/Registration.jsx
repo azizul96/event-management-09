@@ -1,13 +1,16 @@
-import { useContext } from "react";
+/* eslint-disable no-useless-escape */
+import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../context/AuthProvider";
 import toast from "react-hot-toast";
 import Navbar from "../../component/Navbar/Navbar";
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
 
 const Registration = () => {
     const {createUser, updateUserProfile} = useContext(AuthContext)
     const navigate = useNavigate(null)
+    const [showPass, setShowPass] = useState(false)
 
     const handleRegistration = e =>{
         e.preventDefault()
@@ -17,12 +20,23 @@ const Registration = () => {
         const password = e.target.password.value
         console.log(name, email, img, password);
 
+        if(password.length < 6){
+            return toast.error('Password must be 6 characters long ');
+        }
+        else if(!/[A-Z]/.test(password)){
+            return toast.error('Password should have one uppercase character');
+        }
+        else if(!/[!@#$%^&*()_+{}\[\]:;<>,.?~\\/-]/.test(password)){
+            return toast.error('Password should have one special character');
+        }
+
+
         createUser(email,password)
         .then(() =>{
             updateUserProfile(name,img)
             .then(()=>{
                 toast.success('User created successfully');
-                navigate('/login')
+                navigate('/')
             })
         })
         .catch(error =>{
@@ -32,7 +46,7 @@ const Registration = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="hero min-h-screen bg-base-200 ">
+            <div className="hero h-full bg-base-200 pb-10 ">
                 <div className="hero-content flex-col ">
                     <div className="text-center ">
                         <h1 className="text-5xl font-bold">Register now!</h1>
@@ -58,11 +72,16 @@ const Registration = () => {
                                 </label>
                                 <input type="text" placeholder="Profile image url" className="input input-bordered" name='img' />
                             </div>
-                            <div className="form-control">
+                            <div className="form-control relative">
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
-                                <input type="text" placeholder="Your password" className="input input-bordered" name='password' />
+                                <input type={showPass ? "text" : "password"} placeholder="Your password" className="input input-bordered" name='password' />
+                                <span className="absolute bottom-3 right-3 text-xl cursor-pointer" onClick={()=>setShowPass(!showPass)}>
+                                    {
+                                       showPass ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>
+                                    }
+                                </span>
                             </div>
                             <div className="form-control mt-6 p-0">
                                 <button className="btn btn-neutral" type='submit'>Register</button>
