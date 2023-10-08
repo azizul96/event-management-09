@@ -48,12 +48,6 @@ const Blog = () => {
                 </div>
                 <div className="flex items-center justify-between p-6">
                     <div className="flex items-center -space-x-3">
-                    <img
-                        alt="Alif Alamin"
-                        src="https://i.ibb.co/r31zchY/IMG-20220807-135733-996.jpg"
-                        className="relative inline-block h-9 w-9 rounded-full border-2 border-white object-cover object-center hover:z-10"
-                        data-tooltip-target="author-1"
-                    />
                     <div
                         data-tooltip="Alif Alamin"
                         className="absolute z-50 whitespace-normal break-words rounded-lg bg-black py-1.5 px-3 font-sans text-sm font-normal text-white focus:outline-none"

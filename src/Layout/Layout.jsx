@@ -7,7 +7,6 @@ const Layout = () => {
         <div>
             <Outlet></Outlet>
             <div><Toaster/></div>
-
         </div>
     );
 };
