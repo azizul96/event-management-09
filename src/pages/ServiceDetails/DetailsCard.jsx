@@ -13,7 +13,7 @@ const DetailsCard = ({service}) => {
     }
 
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto px-3">
             <div className="  bg-base-100 shadow-xl rounded-lg h-full mb-10">
                 <figure className="  ">
                     <img src={image} alt="image" className="h-auto md:h-96 w-full rounded-t-lg" />

@@ -4,7 +4,7 @@ import { FaAnchor, FaUsers } from 'react-icons/fa';
 
 const WhyChooseUs = () => {
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto px-3'>
             <div>
                 <h1 className="text-3xl font-bold text-center mt-10 mb-3">WHY CHOOSE US FOR YOUR EVENT?</h1>
                 <p className="text-center mb-10">Event That Reflect Values Of Your Company</p>

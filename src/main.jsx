@@ -13,6 +13,7 @@ import Error from './pages/Error/Error';
 import Blog from './pages/Blog/Blog';
 import Gallery from './pages/Gallery/Gallery';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
+import Contact from './pages/Contact/Contact';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path:"/gallery",
         element: <PrivateRoute><Gallery></Gallery></PrivateRoute>
+      },
+      {
+        path:"/contact",
+        element: <Contact></Contact>
       },
       {
         path:"/service/:id",
