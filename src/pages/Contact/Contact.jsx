@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
-
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import Navbar from "../../component/Navbar/Navbar";
 
+
 const Contact = () => {
+    
     return (
         <div>
             <Navbar></Navbar>
@@ -11,7 +12,7 @@ const Contact = () => {
                     <h1 className="text-4xl font-bold text-center mb-5 mt-20">We'd Love To Hear From You</h1>
                     <div className="mt-10 md:flex gap-10">
                         <div className="md:w-2/3 mt-10">
-                                <form  className=" mx-auto px-5 py-10 shadow-2xl rounded-lg space-y-5">
+                                <div  className=" mx-auto px-5 py-10 shadow-2xl rounded-lg space-y-5">
                                     <div className="form-control">
                                         <label className="label">
                                             <span className="label-text font-semibold">Full name</span>
@@ -36,7 +37,7 @@ const Contact = () => {
                                     <div className="form-control mt-6 p-0">
                                         <button type='submit' className="btn btn-neutral">Send Message</button>
                                     </div>
-                                </form>
+                                </div>
                             
 
                             

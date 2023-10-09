@@ -15,7 +15,7 @@ console.log(greetign);
 
 #### Answer: ?
 
-<i>we declared a variable called greeting, but then we assign an empty object to  greetign. greeting remains undefined, and greetign becomes an empty object.</i>
+<i>we declared a variable called greeting, but then we assign an empty object to  greetign. greeting remains undefined, and greetign becomes an empty object. So, the output of console.log(greetign); will be an empty object</i>
 
 </p>
 </details>
@@ -41,7 +41,8 @@ sum(1, "2");
 #### Answer: ?
 
 <i>in this case we'll get 12 as string , 
-the result will be a string containing the number and the string concatenated together.</i>
+the result will be a string containing the number and the string concatenated together.
+ So, the result of the sum(1, "2") call will be the string "12"</i>
 
 </p>
 </details>
@@ -67,7 +68,8 @@ console.log(food);
 
 #### Answer: ?
 
-<i>In these operations, food array will be unchanged. It still contains the original food items ["🍕", "🍫", "🥑", "🍔"]. The change we made was in the info object.</i>
+<i>In these operations, food array will be unchanged. It still contains the original food items ["🍕", "🍫", "🥑", "🍔"]. The change we made was in the info object.
+ The food array is not directly affected by this assignment because the assignment changes the value of the favoriteFood property of the info object and not the elements of the food array.</i>
 
 </p>
 </details>
@@ -120,7 +122,8 @@ console.log(count);
 
 #### Answer: ?
 
-<i>The forEach loop will execute the callback for each element in the array. For the truthy values, it will increment count by 1 for each of them.</i>
+<i>The forEach loop will execute the callback for each element in the array. For the truthy values, it will increment count by 1 for each of them.
+The final value of count is 3 because it was incremented for each truthy element in the nums array (1, 2, and 3).</i>
 
 </p>
 </details>

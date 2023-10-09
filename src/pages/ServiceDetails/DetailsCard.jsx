@@ -7,7 +7,7 @@ const DetailsCard = ({service}) => {
     const navigate = useNavigate()
 
     const handleBookNow = () =>{
-        sweetAlert("Good job!", "Your booking added successfully!", "success");
+        sweetAlert("Great!", "Your booking added successfully!", "success");
         navigate("/")
 
     }
